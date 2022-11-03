@@ -1,15 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!DOCTYPE html> 
+<!-- This tells the browser that this document type is HTML5 so it knows which elements are valid. -->
 
-    <!-- Web page CSS -->
+<html lang="en">
+  <!-- The HTML lang attribute is used to identify the language of text content on the web. This information helps search engines return language specific results, and it is also used by screen readers that switch language profiles to provide the correct accent and pronunciation -->
+  
+  <head>
+    
+    <meta charset="UTF-8" />
+    <!-- The HTML5 specification encourages web developers to use the UTF-8 character set, which covers almost all of the characters and symbols in the world -->
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- ells Internet Explorer to use the highest mode available to that version of IE -->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--  This gives the browser instructions on how to control the page's dimensions and scaling. -->
+    <!-- The width=device-width part sets the width of the page to follow the screen-width of the device (which will vary depending on the device). -->
+    <!-- The initial-scale=1.0 part sets the initial zoom level when the page is first loaded by the browser. -->
+    
+  <!-- Web page CSS -->
     <link rel="stylesheet" href="assets/css/styles.css" />
+  <!-- links stylesheet.css to index.html entire parth of file is mentioned since its in assets>styles folder -->
 
     <!-- Simple lightbox CSS -->
     <link rel="stylesheet" href="assets/css/simple-lightbox.min.css" />
+    <!-- links stylesheet.css to simple-lightbox.min.html -->
 
     <!-- Favicons -->
     <link
@@ -17,13 +31,19 @@
       sizes="180x180"
       href="assets/icons/apple-touch-icon.png"
     />
+    <!--apple-touch-icons requires that at least one Apple touch icon is present and of a standard size.  -->
+  <!-- Since iOS 1.1.3, Safari for iOS has supported a way for developers to specify an image that will be used to represent the web site or app on the home screen. The image is known as the touch icon.  -->
+
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="assets/icons/favicon-32x32.png"
     />
-    <link
+    <!-- The sizes attribute specifies the sizes of icons for visual media.
+     This attribute is only used if rel="icon". -->
+    
+     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
@@ -32,6 +52,7 @@
 
     <title>JabTV Landing Page</title>
   </head>
+  
   <body>
     <!-- Navbar -->
 
