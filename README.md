@@ -1,2 +1,2 @@
 # Landing-page
-Creating multipe landing pages following different turorials
+Creating multiple landing pages following different tutorials
